@@ -2,7 +2,7 @@
  "awesome-cv"
  (lambda ()
    (TeX-add-to-alist 'LaTeX-provided-package-options
-                     '(("fontspec" "quiet") ("sourcesanspro" "default" "opentype") ("tcolorbox" "skins") ("hyperref" "hidelinks" "unicode" "pdfpagelabels=false")))
+                     '(("fontspec" "quiet") ("tcolorbox" "skins") ("hyperref" "hidelinks" "unicode" "pdfpagelabels=false")))
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "href")
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperimage")
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperbaseurl")
@@ -28,8 +28,8 @@
     "fontspec"
     "unicode-math"
     "fontawesome5"
-    "roboto"
-    "sourcesanspro"
+    "plex-mono"
+    "plex-sans"
     "tcolorbox"
     "parskip"
     "hyperref"
